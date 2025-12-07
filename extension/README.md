@@ -68,7 +68,7 @@ python3 measure_overhead_chrome.py
 
 This will:
 1. Launch Chrome **with** CSS Spy Defender extension
-2. Crawl 50 domains from Tranco list, collecting metrics
+2. Crawl domains from Tranco list, collecting metrics
 3. Launch Chrome **without** extension
 4. Crawl the same domains again
 5. Output three JSON files with results
