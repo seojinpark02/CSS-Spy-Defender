@@ -15,7 +15,7 @@ This folder contains proof-of-concept demonstrations of CSS-only fingerprinting 
 
 ---
 
-## PoC 1: CSS Escape Attack (`url-escape-poc.html`)
+## PoC 1: CSS Escape Attack (`dark_light_escape.html`)
 
 ### What it demonstrates
 
@@ -50,7 +50,7 @@ CSS Spy Defender decodes CSS escape sequences before parsing, catching obfuscate
 
 ---
 
-## PoC 2: iframe srcdoc Bypass (`iframe-srcdoc-poc.html`)
+## PoC 2: iframe srcdoc Bypass (`dark_light_iframe.html`)
 
 ### What it demonstrates
 
