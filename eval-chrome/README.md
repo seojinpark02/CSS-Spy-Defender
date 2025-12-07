@@ -132,30 +132,6 @@ DOMAIN_AMOUNT = 50                # Number of domains to measure
 EXTENSION_DIR = Path("...")       # Extension directory path
 ```
 
-## Differences from Firefox Version
-
-| Aspect | Firefox (Original) | Chrome (This Version) |
-|--------|-------------------|----------------------|
-| Browser | Firefox | Chromium |
-| Extension Install | Manual (about:debugging) | Automatic (--load-extension) |
-| Context Type | Browser | Persistent Context |
-| Headless Mode | Mixed | Both headful |
-| MV Version | MV2 | MV3 |
-
-## Troubleshooting
-
-### Extension not loading
-- Ensure `EXTENSION_DIR` points to folder containing `manifest.json`
-- Check that the extension has no syntax errors
-
-### Timeout errors
-- Increase `PAGE_TIMEOUT` for slow connections
-- Some sites may block automated browsers
-
-### Profile issues
-- The script automatically cleans up profile directories
-- If issues persist, manually delete `.chrome-profile-*` folders
-
 ## Expected Results
 
 Based on the paper, unconditional preloading typically causes:
