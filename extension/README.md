@@ -1,158 +1,63 @@
-# CSS Spy Defender - Chrome/MV3 Performance Evaluation
+# CSS Spy Defender - Chrome Extension
 
-This folder contains scripts to measure the performance overhead of CSS Spy Defender extension on Chrome/MV3.
+A Chrome extension that defends against CSS-only fingerprinting attacks.
 
-Based on the original Firefox evaluation from "Cascading Spy Sheets" (NDSS 2025), adapted for Chrome Manifest V3 extensions.
+## Installation
 
-## Overview
+### From Source (Developer Mode)
 
-The evaluation measures:
-- **Request Count**: Number of network requests
-- **Response Body Size**: Total bytes transferred
-- **Navigation Duration**: Time to complete page navigation
-- **First Contentful Paint (FCP)**: Time to first content render
-
-By comparing measurements with and without the extension, we can quantify the overhead introduced by CSS Spy Defender's unconditional preloading mechanism.
+1. Open Chrome and navigate to `chrome://extensions/`
+2. Enable **Developer mode** (toggle in top right)
+3. Click **Load unpacked**
+4. Select this `extension` folder
+5. The extension icon will appear in your toolbar
 
 ## Files
 
-```
-eval-chrome/
-├── measure_overhead_chrome.py   # Main crawling script
-├── stats.py                     # Statistics analysis
-├── requirements.txt             # Python dependencies
-├── tranco_LJ494.csv            # Tranco Top Sites list
-├── css-spy-defender-1.0.3/     # Extension directory (copy here)
-└── README.md                    # This file
-```
-
-## Setup
-
-### 1. Install Dependencies
-
-```bash
-python3 -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-pip3 install -r requirements.txt
-playwright install chromium
-```
-
-### 2. Prepare Extension
-
-Copy the CSS Spy Defender extension folder to this directory:
-
-```bash
-# The folder should contain manifest.json
-cp -r /path/to/css-spy-defender-1.0.3 ./css-spy-defender-1.0.3
-```
-
-Or modify `EXTENSION_DIR` in `measure_overhead_chrome.py` to point to your extension.
-
-### 3. Prepare Domain List
-
-Ensure `tranco_LJ494.csv` is present in this directory. Format:
-```
-1,google.com
-2,youtube.com
-3,facebook.com
-...
-```
-
-## Running the Evaluation
-
-### Crawl
-
-```bash
-python3 measure_overhead_chrome.py
-```
-
-This will:
-1. Launch Chrome **with** CSS Spy Defender extension
-2. Crawl domains from Tranco list, collecting metrics
-3. Launch Chrome **without** extension
-4. Crawl the same domains again
-5. Output three JSON files with results
-
-**Note:** The script runs in headful mode (visible browser window) because Chrome extensions are not fully supported in headless mode.
-
-### Statistics
-
-After crawling completes:
-
-```bash
-python3 stats.py
-```
-
-This outputs:
-- Per-domain differences
-- Average/median request count overhead
-- Average/median response size overhead
-- Navigation duration and FCP differences
-
-## Output Files
-
 | File | Description |
 |------|-------------|
-| `resultsWithExtension.json` | Measurements with CSS Spy Defender enabled |
-| `resultsWithoutExtension.json` | Baseline measurements without extension |
-| `correlatedResults.json` | Difference (with - without) for each metric |
+| `manifest.json` | Extension configuration (MV3) |
+| `content.js` | Core defense logic injected into web pages |
+| `background.js` | Service worker for cross-origin CSS fetching |
+| `popup.html` | Options UI |
+| `popup.js` | Options UI logic |
 
-### JSON Schema
+## Defense Options
 
-```json
-{
-    "https://example.com": {
-        "requestCount": 42,
-        "responseCount": 40,
-        "accumulatedRequestBodySize": 1234,
-        "accumulatedResposeBodySize": 567890,
-        "navigationDuration": 1234.56,
-        "resourceDuration": 123.45,
-        "fcp": 456.78
-    }
-}
-```
+### Unconditional Preloading (Core)
+
+Forces all conditional URLs in CSS to load regardless of media queries or container queries. This flattens network request patterns, preventing attackers from inferring browser/OS information.
+
+**How it works:**
+1. Parses all CSS from `<style>`, `<link>`, and inline styles
+2. Extracts URL candidates: `url()`, `image()`, `image-set()`, `@import`
+3. Loads each URL via hidden `<img>` elements
+4. Handles CSS escape sequences (e.g., `u\72l` → `url`)
+
+### Math Fingerprinting Block
+
+Disables stylesheets containing dangerous `calc()` with trigonometric functions or `env()` functions that can be exploited for fingerprinting.
+
+**Warning:** May break some websites.
+
+### Container Query Block
+
+Neutralizes all `@container` query rules by forcing `container-type: normal`.
+
+**Warning:** May break responsive layouts.
+
+## Technical Details
+
+- **Manifest Version:** 3 (MV3)
+- **Permissions:** `storage`, `activeTab`, `scripting`, `tabs`
+- **Host Permissions:** `<all_urls>`
+- **Content Script Injection:** `document_start`, all frames, including `about:blank`
 
 ## Configuration
 
-Edit `measure_overhead_chrome.py` to adjust:
+Click the extension icon to toggle defense options. Settings are stored via `chrome.storage.sync`.
 
-```python
-TRANCO_FILE = "tranco_LJ494.csv"  # Domain list file
-PAGE_TIMEOUT = 20000              # Page load timeout (ms)
-DOMAIN_AMOUNT = 50                # Number of domains to measure
-EXTENSION_DIR = Path("...")       # Extension directory path
-```
-
-## Differences from Firefox Version
-
-| Aspect | Firefox (Original) | Chrome (This Version) |
-|--------|-------------------|----------------------|
-| Browser | Firefox | Chromium |
-| Extension Install | Manual (about:debugging) | Automatic (--load-extension) |
-| Context Type | Browser | Persistent Context |
-| Headless Mode | Mixed | Both headful |
-| MV Version | MV2 | MV3 |
-
-## Troubleshooting
-
-### Extension not loading
-- Ensure `EXTENSION_DIR` points to folder containing `manifest.json`
-- Check that the extension has no syntax errors
-
-### Timeout errors
-- Increase `PAGE_TIMEOUT` for slow connections
-- Some sites may block automated browsers
-
-### Profile issues
-- The script automatically cleans up profile directories
-- If issues persist, manually delete `.chrome-profile-*` folders
-
-## Expected Results
-
-Based on the paper, unconditional preloading typically causes:
-- **Request count increase**: 5-20% (due to preloading conditional URLs)
-- **Response size increase**: Varies by site (depends on CSS complexity)
-- **Navigation duration**: Minimal impact (preloading is asynchronous)
-
-The overhead is a trade-off for privacy protection against CSS-based fingerprinting.
+Default settings:
+- Unconditional Preloading: **ON**
+- Math Fingerprinting Block: **OFF**
+- Container Query Block: **OFF**
