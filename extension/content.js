@@ -407,8 +407,8 @@ function init() {
         // Default: All defenses enabled
         const options = {
             usePreloading: data.usePreloading ?? true,
-            blockContainer: data.blockContainer ?? true,
-            blockMathFingerprinting: data.blockMathFingerprinting ?? true
+            blockContainer: data.blockContainer ?? false,
+            blockMathFingerprinting: data.blockMathFingerprinting ?? false
         };
 
         if (options.blockMathFingerprinting) {
