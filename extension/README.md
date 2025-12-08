@@ -51,7 +51,7 @@ Neutralizes all `@container` query rules by forcing `container-type: normal`.
 - **Manifest Version:** 3 (MV3)
 - **Permissions:** `storage`, `activeTab`, `scripting`, `tabs`
 - **Host Permissions:** `<all_urls>`
-- **Content Script Injection:** `document_start`, all frames, including `about:blank`
+- **Content Script Injection:** `document_start`, all frames, including `srcdoc` iframes
 
 ## Configuration
 
