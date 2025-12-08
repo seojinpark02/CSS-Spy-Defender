@@ -131,12 +131,3 @@ PAGE_TIMEOUT = 20000              # Page load timeout (ms)
 DOMAIN_AMOUNT = 50                # Number of domains to measure
 EXTENSION_DIR = Path("...")       # Extension directory path
 ```
-
-## Expected Results
-
-Based on the paper, unconditional preloading typically causes:
-- **Request count increase**: ~128% (due to preloading conditional URLs)
-- **Response size increase**: ~142% (depends on CSS complexity)
-- **FCP increase**: ~150ms on average
-
-The overhead is a trade-off for privacy protection against CSS-based fingerprinting.
