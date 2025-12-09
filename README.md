@@ -51,3 +51,11 @@ CSS_Spy_Defender/
 ├── pocs/            # Proof-of-concept attack demos
 └── README.md
 ```
+
+### Disclaimer
+
+This extension was developed for study purposes. Actual usage may cause:
+- UI/UX breakage on some websites
+- Increased network overhead
+
+Use at your own discretion.
