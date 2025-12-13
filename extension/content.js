@@ -188,11 +188,12 @@ function runMathFingerprintingProtection() {
 }
 
 /* ============================================================================
- * 2. Unconditional Preloading
+ * 2. Unconditional Preloading (Cache-Aware)
  * ==========================================================================*/
 
 /**
- * Force-load a URL from the page using a hidden <img> element
+ * Force-load a URL using <link rel="preload"> for better cache compatibility.
+ * This ensures the preloaded resource shares the same cache key as CSS requests.
  */
 function fetchURLFromPage(url) {
     if (!url || url.startsWith("data:") || url.startsWith("#") || url.startsWith("blob:")) return;
@@ -206,16 +207,18 @@ function fetchURLFromPage(url) {
     if (preloadedUrls.has(url)) return;
     preloadedUrls.add(url);
 
-    const img = document.createElement("img");
-    img.src = url;
-    img.style.cssText = "display:none!important;position:absolute!important;";
-    img.referrerPolicy = "no-referrer";
-    img.crossOrigin = "anonymous";
-    document.documentElement.appendChild(img);
+    // Use <link rel="preload"> for cache-compatible preloading
+    // Do NOT set crossOrigin to match CSS background-image requests
+    const link = document.createElement("link");
+    link.rel = "preload";
+    link.href = url;
+    link.as = "image";
+    document.head.appendChild(link);
 
-    const cleanup = () => img.remove();
-    img.onload = cleanup;
-    img.onerror = cleanup;
+    // Cleanup after load or timeout
+    const cleanup = () => link.remove();
+    link.onload = cleanup;
+    link.onerror = cleanup;
     setTimeout(cleanup, 10000);
 }
 
