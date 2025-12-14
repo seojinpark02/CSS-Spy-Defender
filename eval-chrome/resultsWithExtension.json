@@ -1,571 +1,540 @@
 {
     "https://google.com": {
-        "requestCount": 29,
-        "responseCount": 24,
+        "requestCount": 26,
+        "responseCount": 25,
         "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 489675,
-        "navigationDuration": 1806,
-        "resourceDuration": 76.79999999998836,
-        "fcp": 1358.600000000035
+        "accumulatedResposeBodySize": 604052,
+        "navigationDuration": 1508.1999999999534,
+        "resourceDuration": 52.89999999990687,
+        "fcp": 730.3000000000466
     },
     "https://facebook.com": {
-        "requestCount": 57,
-        "responseCount": 55,
+        "requestCount": 56,
+        "responseCount": 54,
         "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 328042,
-        "navigationDuration": 915.7999999999884,
-        "resourceDuration": 51.600000000034925,
-        "fcp": 724.2000000000116
+        "accumulatedResposeBodySize": 306950,
+        "navigationDuration": 1414.1000000000931,
+        "resourceDuration": 96.9000000001397,
+        "fcp": 974.4000000001397
     },
     "https://microsoft.com": {
-        "requestCount": 158,
-        "responseCount": 152,
+        "requestCount": 166,
+        "responseCount": 160,
         "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 2862903,
-        "navigationDuration": 1862.5,
-        "resourceDuration": 74.5,
-        "fcp": 672.2999999999884
-    },
-    "https://apple.com": {
-        "requestCount": 1427,
-        "responseCount": 1427,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 99553526,
-        "navigationDuration": 5368.599999999977,
-        "resourceDuration": 63.09999999997672,
-        "fcp": 824.8999999999651
+        "accumulatedResposeBodySize": 2869914,
+        "navigationDuration": 3651.5,
+        "resourceDuration": 89.70000000018626,
+        "fcp": 1131
     },
     "https://youtube.com": {
-        "requestCount": 260,
-        "responseCount": 194,
+        "requestCount": 148,
+        "responseCount": 146,
         "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 6556989,
-        "navigationDuration": 2836.7999999999884,
-        "resourceDuration": 198.10000000003492,
-        "fcp": 906.7999999999884
-    },
-    "https://akamaiedge.net": {
-        "requestCount": 1,
-        "responseCount": 0,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 0
-    },
-    "https://akamai.net": {
-        "requestCount": 1,
-        "responseCount": 0,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 0
-    },
-    "https://twitter.com": {
-        "requestCount": 31,
-        "responseCount": 27,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 2290892,
-        "navigationDuration": 2218.2999999999884,
-        "resourceDuration": 372.8999999999651,
-        "fcp": 562.3999999999651
+        "accumulatedResposeBodySize": 5084835,
+        "navigationDuration": 4128.300000000047,
+        "resourceDuration": 152.4000000001397,
+        "fcp": 1829.2000000001863
     },
     "https://instagram.com": {
-        "requestCount": 136,
-        "responseCount": 135,
+        "requestCount": 120,
+        "responseCount": 116,
         "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 10164868,
-        "navigationDuration": 1510.2999999999884,
-        "resourceDuration": 142.20000000001164,
-        "fcp": 460.9000000000233
-    },
-    "https://azure.com": {
-        "requestCount": 255,
-        "responseCount": 246,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 14645724,
-        "navigationDuration": 6298.299999999988,
-        "resourceDuration": 11.800000000046566,
-        "fcp": 1899.1999999999534
-    },
-    "https://cloudflare.com": {
-        "requestCount": 1353,
-        "responseCount": 1348,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 27944857,
-        "navigationDuration": 6400.200000000012,
-        "resourceDuration": 34.199999999953434,
-        "fcp": 1191.0999999999767
+        "accumulatedResposeBodySize": 8872750,
+        "navigationDuration": 1748.8999999999069,
+        "resourceDuration": 269.0999999998603,
+        "fcp": 604.0999999998603
     },
     "https://live.com": {
         "requestCount": 19,
         "responseCount": 17,
         "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 1827159,
-        "navigationDuration": 635.2999999999884,
-        "resourceDuration": 102.29999999998836,
-        "fcp": 302.20000000001164
+        "accumulatedResposeBodySize": 1837361,
+        "navigationDuration": 2001.3000000000466,
+        "resourceDuration": 800.3000000000466,
+        "fcp": 672.7000000001863
     },
     "https://linkedin.com": {
         "requestCount": 44,
-        "responseCount": 35,
+        "responseCount": 34,
         "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 2242866,
-        "navigationDuration": 861.5,
-        "resourceDuration": 33.199999999953434,
-        "fcp": 614.7999999999884
-    },
-    "https://tiktokcdn.com": {
-        "requestCount": 1,
-        "responseCount": 0,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 0
+        "accumulatedResposeBodySize": 2166344,
+        "navigationDuration": 1037.4000000001397,
+        "resourceDuration": 121.60000000009313,
+        "fcp": 1068.5
     },
     "https://office.com": {
-        "requestCount": 96,
-        "responseCount": 93,
+        "requestCount": 98,
+        "responseCount": 96,
         "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 13121713,
-        "navigationDuration": 1683.5,
-        "resourceDuration": 155.5,
-        "fcp": 1589.2000000000116
+        "accumulatedResposeBodySize": 13124546,
+        "navigationDuration": 2642.0999999998603,
+        "resourceDuration": 704,
+        "fcp": 2640.0999999998603
     },
     "https://doubleclick.net": {
-        "requestCount": 74,
-        "responseCount": 68,
+        "requestCount": 73,
+        "responseCount": 67,
         "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 1938743,
-        "navigationDuration": 1372.5999999999767,
-        "resourceDuration": 233.79999999998836,
-        "fcp": 1067.7999999999884
-    },
-    "https://akadns.net": {
-        "requestCount": 1,
-        "responseCount": 0,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 0
-    },
-    "https://windowsupdate.com": {
-        "requestCount": 1,
-        "responseCount": 0,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 0
-    },
-    "https://netflix.com": {
-        "requestCount": 221,
-        "responseCount": 159,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 6631757,
-        "navigationDuration": 4938.400000000023,
-        "resourceDuration": 415.20000000001164,
-        "fcp": 1674.4000000000233
-    },
-    "https://apple-dns.net": {
-        "requestCount": 1,
-        "responseCount": 0,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 0
+        "accumulatedResposeBodySize": 1911682,
+        "navigationDuration": 2249.5999999998603,
+        "resourceDuration": 170.39999999990687,
+        "fcp": 957.5
     },
     "https://fbcdn.net": {
-        "requestCount": 55,
-        "responseCount": 54,
+        "requestCount": 54,
+        "responseCount": 53,
         "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 322612,
-        "navigationDuration": 802.7999999999884,
-        "resourceDuration": 4.399999999965075,
-        "fcp": 639.2999999999884
+        "accumulatedResposeBodySize": 301520,
+        "navigationDuration": 1114.4000000001397,
+        "resourceDuration": 12.5,
+        "fcp": 818.5
     },
     "https://amazon.com": {
-        "requestCount": 401,
-        "responseCount": 394,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 7195333,
-        "navigationDuration": 3215.4000000000233,
-        "resourceDuration": 52,
-        "fcp": 1514.4000000000233
-    },
-    "https://trafficmanager.net": {
-        "requestCount": 1,
-        "responseCount": 0,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 0
-    },
-    "https://gtld-servers.net": {
-        "requestCount": 1,
-        "responseCount": 0,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 0
-    },
-    "https://microsoftonline.com": {
-        "requestCount": 1,
-        "responseCount": 0,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 0
-    },
-    "https://wikipedia.org": {
-        "requestCount": 11,
+        "requestCount": 10,
         "responseCount": 10,
         "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 113387,
-        "navigationDuration": 1956.1000000000931,
-        "resourceDuration": 95.19999999995343,
-        "fcp": 1767.4000000000233
+        "accumulatedResposeBodySize": 32346,
+        "navigationDuration": 1726.8999999999069,
+        "resourceDuration": 52.799999999813735,
+        "fcp": 1198.0999999998603
+    },
+    "https://wikipedia.org": {
+        "requestCount": 9,
+        "responseCount": 8,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 92969,
+        "navigationDuration": 3250.600000000093,
+        "resourceDuration": 94.69999999995343,
+        "fcp": 3031.8000000000466
     },
     "https://fastly.net": {
-        "requestCount": 46,
-        "responseCount": 43,
+        "requestCount": 174,
+        "responseCount": 171,
         "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 1670667,
-        "navigationDuration": 1175,
-        "resourceDuration": 373.4000000000233,
-        "fcp": 882.6000000000931
+        "accumulatedResposeBodySize": 7207877,
+        "navigationDuration": 1986.3000000000466,
+        "resourceDuration": 1012.6000000000931,
+        "fcp": 1137.3000000000466
     },
     "https://bing.com": {
         "requestCount": 42,
-        "responseCount": 16,
+        "responseCount": 32,
         "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 111376,
-        "navigationDuration": 449.30000000004657,
-        "resourceDuration": 45.29999999993015,
-        "fcp": 317.20000000006985
+        "accumulatedResposeBodySize": 283876,
+        "navigationDuration": 580.3999999999069,
+        "resourceDuration": 110.70000000018626,
+        "fcp": 317.89999999990687
     },
     "https://icloud.com": {
-        "requestCount": 107,
-        "responseCount": 107,
+        "requestCount": 104,
+        "responseCount": 104,
         "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 16456939,
-        "navigationDuration": 1077.2999999999302,
-        "resourceDuration": 112.80000000004657,
-        "fcp": 347.0999999999767
-    },
-    "https://wordpress.org": {
-        "requestCount": 318,
-        "responseCount": 314,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 42731079,
-        "navigationDuration": 9822.599999999977,
-        "resourceDuration": 777.6999999999534,
-        "fcp": 2028.6999999999534
+        "accumulatedResposeBodySize": 16230229,
+        "navigationDuration": 1791.3000000000466,
+        "resourceDuration": 256.4000000001397,
+        "fcp": 431.60000000009313
     },
     "https://youtu.be": {
-        "requestCount": 144,
-        "responseCount": 142,
+        "requestCount": 140,
+        "responseCount": 140,
         "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 5311729,
-        "navigationDuration": 1667.4000000000233,
-        "resourceDuration": 159.59999999997672,
-        "fcp": 790.5999999999767
-    },
-    "https://digicert.com": {
-        "requestCount": 254,
-        "responseCount": 249,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 4049663,
-        "navigationDuration": 9144.400000000023,
-        "resourceDuration": 6304,
-        "fcp": 2231.5999999999767
-    },
-    "https://aaplimg.com": {
-        "requestCount": 1,
-        "responseCount": 0,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 0
-    },
-    "https://yahoo.com": {
-        "requestCount": 1416,
-        "responseCount": 1359,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 5814780
+        "accumulatedResposeBodySize": 5045122,
+        "navigationDuration": 3216,
+        "resourceDuration": 80.70000000018626,
+        "fcp": 1474.5
     },
     "https://github.com": {
-        "requestCount": 184,
-        "responseCount": 183,
+        "requestCount": 183,
+        "responseCount": 181,
         "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 7912895,
-        "navigationDuration": 2114.0999999999767,
-        "resourceDuration": 84,
-        "fcp": 647.4000000000233
+        "accumulatedResposeBodySize": 7755573,
+        "navigationDuration": 3216.6999999999534,
+        "resourceDuration": 166.5999999998603,
+        "fcp": 822.5
     },
     "https://ui.com": {
-        "requestCount": 67,
-        "responseCount": 61,
+        "requestCount": 61,
+        "responseCount": 45,
         "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 549367,
-        "navigationDuration": 1666.4000000000233,
-        "resourceDuration": 102.29999999993015,
-        "fcp": 752.5999999999767
+        "accumulatedResposeBodySize": 1437503,
+        "navigationDuration": 1252.8000000000466,
+        "resourceDuration": 107.0999999998603,
+        "fcp": 555.9000000001397
     },
     "https://pinterest.com": {
-        "requestCount": 330,
-        "responseCount": 299,
+        "requestCount": 64,
+        "responseCount": 62,
         "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 10864308,
-        "navigationDuration": 3270.3000000000466,
-        "resourceDuration": 48.10000000009313,
-        "fcp": 480.9000000000233
-    },
-    "https://mail.ru": {
-        "requestCount": 409,
-        "responseCount": 331,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 2290297
-    },
-    "https://t-msedge.net": {
-        "requestCount": 1,
-        "responseCount": 0,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 0
-    },
-    "https://sharepoint.com": {
-        "requestCount": 229,
-        "responseCount": 217,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 11808686,
-        "navigationDuration": 5534,
-        "resourceDuration": 21,
-        "fcp": 1414.4000000000233
+        "accumulatedResposeBodySize": 1406477,
+        "navigationDuration": 1561.7999999998137,
+        "resourceDuration": 86.19999999995343,
+        "fcp": 963.7999999998137
     },
     "https://adobe.com": {
         "requestCount": 20,
-        "responseCount": 17,
+        "responseCount": 16,
         "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 124362,
-        "navigationDuration": 296.39999999990687,
-        "resourceDuration": 53.5
+        "accumulatedResposeBodySize": 112972,
+        "navigationDuration": 910.1999999999534,
+        "resourceDuration": 66.80000000004657
     },
     "https://googlesyndication.com": {
         "requestCount": 38,
-        "responseCount": 31,
+        "responseCount": 36,
         "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 617002,
-        "navigationDuration": 1135,
-        "resourceDuration": 7.599999999976717,
-        "fcp": 560.7000000000698
-    },
-    "https://cloudfront.net": {
-        "requestCount": 1,
-        "responseCount": 0,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 0
+        "accumulatedResposeBodySize": 738557,
+        "navigationDuration": 2159.7999999998137,
+        "resourceDuration": 3.3999999999068677,
+        "fcp": 701.3999999999069
     },
     "https://google-analytics.com": {
-        "requestCount": 75,
-        "responseCount": 69,
+        "requestCount": 74,
+        "responseCount": 68,
         "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 2431316,
-        "navigationDuration": 967,
-        "resourceDuration": 3.900000000023283,
-        "fcp": 699.8999999999069
-    },
-    "https://spotify.com": {
-        "requestCount": 216,
-        "responseCount": 175,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 7007239,
-        "navigationDuration": 3103.0999999999767,
-        "resourceDuration": 339.0999999999767,
-        "fcp": 1140
+        "accumulatedResposeBodySize": 2404255,
+        "navigationDuration": 2329.600000000093,
+        "resourceDuration": 10.100000000093132,
+        "fcp": 515.3999999999069
     },
     "https://wordpress.com": {
-        "requestCount": 86,
-        "responseCount": 84,
+        "requestCount": 88,
+        "responseCount": 88,
         "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 4011536,
-        "navigationDuration": 3208,
-        "resourceDuration": 234.90000000002328,
-        "fcp": 1087.0999999999767
-    },
-    "https://office.net": {
-        "requestCount": 1,
-        "responseCount": 0,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 0
-    },
-    "https://s-msedge.net": {
-        "requestCount": 1,
-        "responseCount": 0,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 0
-    },
-    "https://gvt2.com": {
-        "requestCount": 1,
-        "responseCount": 0,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 0
+        "accumulatedResposeBodySize": 3982850,
+        "navigationDuration": 3986,
+        "resourceDuration": 108.5999999998603,
+        "fcp": 1289.3999999999069
     },
     "https://gandi.net": {
-        "requestCount": 23,
-        "responseCount": 22,
+        "requestCount": 21,
+        "responseCount": 20,
         "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 362226,
-        "navigationDuration": 3239.4000000000233,
-        "resourceDuration": 52.90000000002328,
-        "fcp": 2407.9000000000233
-    },
-    "https://zoom.us": {
-        "requestCount": 511,
-        "responseCount": 508,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 14620743,
-        "navigationDuration": 3684.0999999999767,
-        "resourceDuration": 129.40000000002328,
-        "fcp": 1883.2999999999302
-    },
-    "https://msn.com": {
-        "requestCount": 65,
-        "responseCount": 51,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 1502735,
-        "navigationDuration": 871.7999999999302,
-        "resourceDuration": 49.20000000006985,
-        "fcp": 1080.6999999999534
-    },
-    "https://bit.ly": {
-        "requestCount": 159,
-        "responseCount": 158,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 3944322,
-        "navigationDuration": 3703.3000000000466,
-        "resourceDuration": 243,
-        "fcp": 1658
-    },
-    "https://edgekey.net": {
-        "requestCount": 1,
-        "responseCount": 0,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 0
-    },
-    "https://office365.com": {
-        "requestCount": 190,
-        "responseCount": 181,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 7532873,
-        "navigationDuration": 6032.400000000023,
-        "resourceDuration": 31.199999999953434,
-        "fcp": 2043.5
+        "accumulatedResposeBodySize": 338576,
+        "navigationDuration": 1971.5,
+        "resourceDuration": 28.4000000001397,
+        "fcp": 1665.3999999999069
     },
     "https://skype.com": {
-        "requestCount": 45,
-        "responseCount": 43,
+        "requestCount": 43,
+        "responseCount": 40,
         "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 1262749,
-        "navigationDuration": 2531.100000000093,
-        "resourceDuration": 229.69999999995343,
-        "fcp": 1669.6000000000931
-    },
-    "https://bytefcdn-oversea.com": {
-        "requestCount": 1,
-        "responseCount": 0,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 0
+        "accumulatedResposeBodySize": 1049187,
+        "navigationDuration": 3038.5,
+        "resourceDuration": 825.1000000000931,
+        "fcp": 802.3999999999069
     },
     "https://whatsapp.net": {
         "requestCount": 45,
-        "responseCount": 45,
+        "responseCount": 44,
         "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 845910,
-        "navigationDuration": 1842.5,
-        "resourceDuration": 99,
-        "fcp": 1509.2999999999302
-    },
-    "https://yandex.net": {
-        "requestCount": 73,
-        "responseCount": 69,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 575574,
-        "navigationDuration": 8125.099999999977,
-        "resourceDuration": 456.29999999993015,
-        "fcp": 4569.70000000007
+        "accumulatedResposeBodySize": 847310,
+        "navigationDuration": 1943.5,
+        "resourceDuration": 154.29999999981374,
+        "fcp": 1693.3999999999069
     },
     "https://whatsapp.com": {
         "requestCount": 44,
         "responseCount": 43,
         "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 845267,
-        "navigationDuration": 1072.0999999999767,
-        "resourceDuration": 29.099999999976717,
-        "fcp": 916.5
-    },
-    "https://cloudflare.net": {
-        "requestCount": 259,
-        "responseCount": 175,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 9805565,
-        "navigationDuration": 12492.199999999953,
-        "resourceDuration": 578.4000000000233,
-        "fcp": 8671.199999999953
+        "accumulatedResposeBodySize": 846667,
+        "navigationDuration": 3823,
+        "resourceDuration": 20.399999999906868,
+        "fcp": 3403.5
     },
     "https://mozilla.org": {
-        "requestCount": 90,
-        "responseCount": 89,
+        "requestCount": 68,
+        "responseCount": 67,
         "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 735737,
-        "navigationDuration": 1509.3999999999069,
-        "resourceDuration": 24.400000000023283,
-        "fcp": 1151.7999999999302
-    },
-    "https://qq.com": {
-        "requestCount": 235,
-        "responseCount": 224,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 4743776,
-        "navigationDuration": 17126,
-        "resourceDuration": 124.79999999993015,
-        "fcp": 918.8999999999069
-    },
-    "https://ntp.org": {
-        "requestCount": 50,
-        "responseCount": 37,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 822944,
-        "navigationDuration": 3620.4000000000233,
-        "resourceDuration": 341.5,
-        "fcp": 3421.20000000007
-    },
-    "https://intuit.com": {
-        "requestCount": 317,
-        "responseCount": 313,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 4169940,
-        "navigationDuration": 7001.099999999977,
-        "resourceDuration": 498.4000000000233,
-        "fcp": 1735.5999999999767
-    },
-    "https://wac-msedge.net": {
-        "requestCount": 1,
-        "responseCount": 0,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 0
-    },
-    "https://tiktok.com": {
-        "requestCount": 7,
-        "responseCount": 5,
-        "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 18588,
-        "navigationDuration": 426.29999999993015,
-        "resourceDuration": 60.70000000006985,
-        "fcp": 387.69999999995343
+        "accumulatedResposeBodySize": 870835,
+        "navigationDuration": 2851.7000000001863,
+        "resourceDuration": 42.10000000009313,
+        "fcp": 1546.7999999998137
     },
     "https://cloudflare-dns.com": {
-        "requestCount": 41,
-        "responseCount": 35,
+        "requestCount": 36,
+        "responseCount": 31,
         "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 1515562,
-        "navigationDuration": 930.6999999999534,
-        "resourceDuration": 202.79999999993015,
-        "fcp": 505.5
+        "accumulatedResposeBodySize": 1129110,
+        "navigationDuration": 2334.399999999907,
+        "resourceDuration": 196,
+        "fcp": 1251
     },
     "https://googledomains.com": {
-        "requestCount": 128,
-        "responseCount": 128,
+        "requestCount": 127,
+        "responseCount": 82,
         "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 2979932,
-        "navigationDuration": 1338.5999999999767,
-        "resourceDuration": 233.80000000004657,
-        "fcp": 1109.0999999999767
+        "accumulatedResposeBodySize": 1741137,
+        "navigationDuration": 1132.1000000000931,
+        "resourceDuration": 197.39999999990687,
+        "fcp": 1053.1000000000931
     },
     "https://blogspot.com": {
-        "requestCount": 81,
-        "responseCount": 80,
+        "requestCount": 77,
+        "responseCount": 77,
         "accumulatedRequestBodySize": 0,
-        "accumulatedResposeBodySize": 2086434,
-        "navigationDuration": 2364.6999999999534,
-        "resourceDuration": 76,
-        "fcp": 1585.9000000000233
+        "accumulatedResposeBodySize": 2018514,
+        "navigationDuration": 2799.399999999907,
+        "resourceDuration": 92,
+        "fcp": 2024.5
+    },
+    "https://outlook.com": {
+        "requestCount": 20,
+        "responseCount": 18,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 1837214,
+        "navigationDuration": 1485.7999999998137,
+        "resourceDuration": 24,
+        "fcp": 1229.5999999996275
+    },
+    "https://reddit.com": {
+        "requestCount": 122,
+        "responseCount": 120,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 5555649,
+        "navigationDuration": 4137.300000000279,
+        "resourceDuration": 55.5,
+        "fcp": 937.6000000000931
+    },
+    "https://snapchat.com": {
+        "requestCount": 108,
+        "responseCount": 108,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 19347306,
+        "navigationDuration": 2296.100000000093,
+        "resourceDuration": 365.5,
+        "fcp": 564.6000000000931
+    },
+    "https://opera.com": {
+        "requestCount": 127,
+        "responseCount": 124,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 1600545,
+        "navigationDuration": 4146.9000000003725,
+        "resourceDuration": 206.89999999990687,
+        "fcp": 2415.3000000002794
+    },
+    "https://baidu.com": {
+        "requestCount": 169,
+        "responseCount": 165,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 2508111,
+        "navigationDuration": 4421.299999999814,
+        "resourceDuration": 472.60000000009313,
+        "fcp": 1256.0999999996275
+    },
+    "https://nic.ru": {
+        "requestCount": 1,
+        "responseCount": 1,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 13534,
+        "navigationDuration": 1876.3999999999069,
+        "fcp": 1890.8999999999069
+    },
+    "https://pki.goog": {
+        "requestCount": 214,
+        "responseCount": 187,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 6083024,
+        "navigationDuration": 2064.8000000002794,
+        "resourceDuration": 215.39999999990687,
+        "fcp": 783.1000000000931
+    },
+    "https://flickr.com": {
+        "requestCount": 229,
+        "responseCount": 159,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 7737111,
+        "navigationDuration": 4405.399999999907,
+        "resourceDuration": 83.70000000018626,
+        "fcp": 1094.3000000002794
+    },
+    "https://lencr.org": {
+        "requestCount": 53,
+        "responseCount": 46,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 5042437,
+        "navigationDuration": 3299,
+        "resourceDuration": 189.29999999981374,
+        "fcp": 1614.3000000002794
+    },
+    "https://unity3d.com": {
+        "requestCount": 141,
+        "responseCount": 126,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 1094856,
+        "navigationDuration": 2146.100000000093,
+        "resourceDuration": 65.79999999981374,
+        "fcp": 1078.2000000001863
+    },
+    "https://sentry.io": {
+        "requestCount": 68,
+        "responseCount": 67,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 3179998,
+        "navigationDuration": 2108.5,
+        "resourceDuration": 123,
+        "fcp": 806.8999999999069
+    },
+    "https://t.me": {
+        "requestCount": 96,
+        "responseCount": 95,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 3731606,
+        "navigationDuration": 3756.7999999998137,
+        "resourceDuration": 275.8000000002794,
+        "fcp": 2335.899999999907
+    },
+    "https://rubiconproject.com": {
+        "requestCount": 72,
+        "responseCount": 71,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 1565550,
+        "navigationDuration": 3070.399999999907,
+        "resourceDuration": 52.39999999990687,
+        "fcp": 1264.6999999997206
+    },
+    "https://zemanta.com": {
+        "requestCount": 131,
+        "responseCount": 128,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 4858916,
+        "navigationDuration": 3498.100000000093,
+        "resourceDuration": 352.39999999990687,
+        "fcp": 2395.8000000002794
+    },
+    "https://apache.org": {
+        "requestCount": 70,
+        "responseCount": 67,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 1991434,
+        "navigationDuration": 2002.8000000002794,
+        "resourceDuration": 44.200000000186265,
+        "fcp": 914.5
+    },
+    "https://paypal.com": {
+        "requestCount": 81,
+        "responseCount": 79,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 1891316,
+        "navigationDuration": 2660.4000000003725,
+        "resourceDuration": 169.89999999990687,
+        "fcp": 944.3000000002794
+    },
+    "https://amazonvideo.com": {
+        "requestCount": 150,
+        "responseCount": 147,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 3293477,
+        "navigationDuration": 3562.5,
+        "resourceDuration": 55.8000000002794,
+        "fcp": 1860.6000000000931
+    },
+    "https://casalemedia.com": {
+        "requestCount": 112,
+        "responseCount": 111,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 5644471,
+        "navigationDuration": 4092.899999999907,
+        "resourceDuration": 87,
+        "fcp": 2603.100000000093
+    },
+    "https://t.co": {
+        "requestCount": 2,
+        "responseCount": 2,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 1418,
+        "navigationDuration": 399.29999999981374,
+        "resourceDuration": 168.60000000009313,
+        "fcp": 316.09999999962747
+    },
+    "https://meraki.com": {
+        "requestCount": 197,
+        "responseCount": 177,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 3384353,
+        "navigationDuration": 2470.9000000003725,
+        "resourceDuration": 31.699999999720603,
+        "fcp": 1641.7000000001863
+    },
+    "https://medium.com": {
+        "requestCount": 129,
+        "responseCount": 129,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 2031796,
+        "navigationDuration": 2936.100000000093,
+        "resourceDuration": 66.8000000002794,
+        "fcp": 518.2000000001863
+    },
+    "https://archive.org": {
+        "requestCount": 33,
+        "responseCount": 28,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 0,
+        "navigationDuration": 1320.7000000001863,
+        "resourceDuration": 170.20000000018626,
+        "fcp": 710.8000000002794
+    },
+    "https://theguardian.com": {
+        "requestCount": 174,
+        "responseCount": 145,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 1745921,
+        "navigationDuration": 2439.100000000093,
+        "resourceDuration": 278.70000000018626,
+        "fcp": 851
+    },
+    "https://w3.org": {
+        "requestCount": 35,
+        "responseCount": 33,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 492092,
+        "navigationDuration": 902.1000000000931,
+        "resourceDuration": 44.39999999990687,
+        "fcp": 539.6000000000931
+    },
+    "https://gmail.com": {
+        "requestCount": 170,
+        "responseCount": 166,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 4134947,
+        "navigationDuration": 3641.3000000002794,
+        "resourceDuration": 668.6000000000931,
+        "fcp": 2641.2000000001863
+    },
+    "https://applovin.com": {
+        "requestCount": 78,
+        "responseCount": 51,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 3413404,
+        "navigationDuration": 920.2000000001863,
+        "resourceDuration": 36.799999999813735,
+        "fcp": 779.8000000002794
+    },
+    "https://pubmatic.com": {
+        "requestCount": 162,
+        "responseCount": 159,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 6625273,
+        "navigationDuration": 4278.9000000003725,
+        "resourceDuration": 264.8000000002794,
+        "fcp": 1192.9000000003725
+    },
+    "https://mozilla.com": {
+        "requestCount": 69,
+        "responseCount": 68,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 786282,
+        "navigationDuration": 2107.5,
+        "resourceDuration": 29.90000000037253,
+        "fcp": 1532.2999999998137
+    },
+    "https://ebay.com": {
+        "requestCount": 69,
+        "responseCount": 63,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 1356019,
+        "navigationDuration": 2379.7000000001863,
+        "resourceDuration": 75.6999999997206,
+        "fcp": 1413.9000000003725
     }
 }
