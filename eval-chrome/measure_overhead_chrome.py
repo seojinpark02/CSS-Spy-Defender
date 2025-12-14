@@ -30,8 +30,8 @@ from playwright.async_api import BrowserContext, Request, Response, async_playwr
 # ============================================================================
 
 TRANCO_FILE = "tranco_LJ494.csv"
-PAGE_TIMEOUT = 20000  # 20 seconds
-DOMAIN_AMOUNT = 50    # Number of successful queries to collect
+PAGE_TIMEOUT = 5000  # 5 seconds
+DOMAIN_AMOUNT = 60    # Number of successful queries to collect
 
 # Chrome extension directory (folder containing manifest.json)
 # Adjust this path to point to your CSS Spy Defender extension
@@ -236,9 +236,10 @@ async def run_browser(
                     break
                 
                 result = await query_domain(context, domain)
-                results[domain] = result
                 
+                # Bug fix: Only store successful queries
                 if not result.error:
+                    results[domain] = result
                     successful_queries += 1
                     logger.info(f"[{successful_queries}/{DOMAIN_AMOUNT}] Successfully queried {domain}")
                 else:
